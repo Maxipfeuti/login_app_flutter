@@ -1,7 +1,9 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:ultimo_login_app/bloc/validation/validation_cubit.dart';
 
 import '../models/user_model.dart';
 
@@ -36,14 +38,15 @@ class _TextFormFieldLoginState extends State<TextFormFieldLogin> {
         password: datos['password'],
       );
     }).toList();
-
-
   }
 
 
 
   @override
   Widget build(BuildContext context) {
+    final validation = context.watch<ValidationCubit>();
+    final email = validation.state.email;
+    final password = validation.state.password;
 
 
     return Form(
@@ -54,10 +57,12 @@ class _TextFormFieldLoginState extends State<TextFormFieldLogin> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: TextFormField(
+              onChanged: validation.emailChanged,
               keyboardType: TextInputType.emailAddress,
               controller: mail,
-              decoration:const InputDecoration(
-                label: Text('Email'),
+              decoration: InputDecoration(
+                label: const Text('Email'),
+                errorText: email.errorMessage
               ),
             ),
           ),
@@ -67,10 +72,12 @@ class _TextFormFieldLoginState extends State<TextFormFieldLogin> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: TextFormField(
+              onChanged: validation.passwordChanged,
               controller: passwo,
               obscureText: true,
-              decoration:const InputDecoration(
-                label: Text('Contraseña'),
+              decoration: InputDecoration(
+                label: const Text('Contraseña'),
+                errorText: password.errorMessage
               ),
             ),
           ),
@@ -87,7 +94,7 @@ class _TextFormFieldLoginState extends State<TextFormFieldLogin> {
               if ( usuarios.isNotEmpty ) {
                 // ignore: use_build_context_synchronously
                 context.push('/pages/user_page.dart');
-              }
+              } 
               
               //print('hola' + usuarios.length.toString());
             },
