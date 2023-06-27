@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "103775106205",
+    "project_id": "flutter-registro-4443d",
+    "storage_bucket": "flutter-registro-4443d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103775106205:android:6c184a1addc4f8e30c1074",
+        "android_client_info": {
+          "package_name": "com.example.app_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103775106205-49qg6ji0bsf1nhub7o395abvtsue3ssa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXhd3rj4leOamzH2yA6c_XJV89O89qljM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103775106205-49qg6ji0bsf1nhub7o395abvtsue3ssa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "103775106205-hjv7hj3he6ji25qg5olfk7o72vai8hto.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.login1App"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103775106205:android:e915baa59298f2a50c1074",
+        "android_client_info": {
+          "package_name": "com.example.login1_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103775106205-49qg6ji0bsf1nhub7o395abvtsue3ssa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXhd3rj4leOamzH2yA6c_XJV89O89qljM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103775106205-49qg6ji0bsf1nhub7o395abvtsue3ssa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "103775106205-hjv7hj3he6ji25qg5olfk7o72vai8hto.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.login1App"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103775106205:android:3dd0e7f7e1e344230c1074",
+        "android_client_info": {
+          "package_name": "com.example.login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103775106205-49qg6ji0bsf1nhub7o395abvtsue3ssa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXhd3rj4leOamzH2yA6c_XJV89O89qljM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103775106205-49qg6ji0bsf1nhub7o395abvtsue3ssa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "103775106205-hjv7hj3he6ji25qg5olfk7o72vai8hto.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.login1App"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103775106205:android:5226c036590b28c90c1074",
+        "android_client_info": {
+          "package_name": "com.example.ultimo_login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103775106205-49qg6ji0bsf1nhub7o395abvtsue3ssa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXhd3rj4leOamzH2yA6c_XJV89O89qljM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103775106205-49qg6ji0bsf1nhub7o395abvtsue3ssa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "103775106205-hjv7hj3he6ji25qg5olfk7o72vai8hto.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.login1App"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
